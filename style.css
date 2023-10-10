@@ -1,0 +1,37 @@
+body{
+    background-color: #252B32;
+}
+.people{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 20px;
+    justify-content:space-around;
+}
+.character{
+    margin: 20px 0;
+    padding: 20px 30px;
+    border:rgb(255, 255, 255) solid 1px;
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+img{
+    height: 170px;
+    width: 170px;
+}
+header{
+    display:flex;
+    justify-content: center;
+}
+p{
+    color:rgb(255, 255, 255);
+}
+button{
+    padding: 14px 40px;
+    border-radius: 12px;
+    background-color:  #475158 ;
+    color: white;
+}
+
+
